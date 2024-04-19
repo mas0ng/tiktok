@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>
+  // This script will run when the page loads
+  window.onload = function() {
+    // Check if the screen width is less than or equal to 600 pixels
+    if (window.innerWidth <= 600) {
+      // Redirect to the specified website
+      window.location.href = 'mobile.html';
+    }
+  };
+</script>
+  <link rel="icon" type="image/jpg" href="images/favicon.png">
+<title>mas0ng.com | Coming Soon</title>
+<style>
+  body, h1, a {
+    font-weight: bold; /* Makes all text bold */
+  }
+
+  body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #fff;
+  }
+  
+  .navbar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Align menu to the center */
+  }
+  
+  .navbar ul li {
+    padding: 5px 10px;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .branding h1 {
+    font-size: 3em;
+    margin: 0;
+    background: #fff; /* Default background */
+  }
+  
+  .branding h1 span {
+    background: -webkit-linear-gradient(left, #654ea3, #eaafc8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .explore-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: 2px solid #654ea3;
+    border-radius: 5px;
+    background: transparent;
+    color: #654ea3;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .explore-btn:hover {
+    background: #654ea3;
+    color: #fff;
+  }
+  
+  .explore-btn:after {
+    content: '→';
+    display: inline-block;
+    margin-left: 10px;
+    transition: margin-left 0.3s ease;
+  }
+  
+  .explore-btn:hover:after {
+    margin-left: 15px;
+  }
+</style>
+</head>
+<body>
+<div class="navbar">
+  <ul>
+    <li><a href="/all games/catalog.html">Games</a></li>
+    <li><a href="coming soon.html">Coming Soon</a></li>
+    <li><a href="coming soon.html">Coming Soon</a></li>
+    <li><a href="coming soon.html">Coming Soon</a></li>
+    <li><a href="coming soon.html">Coming Soon</a></li>
+  </ul>
+</div>
+<div class="branding">
+  <h1>Error 404 <span>Page Not Found</span></h1>
+  <a href="https://mas0ng.com/index.html" class="explore-btn">Go To Home</a>
+</div>
+</body>
+</html>
