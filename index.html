@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Redirecting - mas0ng.com</title>
+<style>
+  body {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    background: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 50px; /* Added padding to the top */
+  }
+
+  .redirect-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    background: -webkit-linear-gradient(left, #654ea3, #eaafc8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .redirect-message {
+    margin: 20px;
+    color: #654ea3;
+  }
+
+  @media (max-width: 768px) {
+    .redirect-title {
+      font-size: 1.5em; /* Adjust for smaller screens */
+    }
+  }
+</style>
+<script>
+  function redirect() {
+    window.location.href = 'https://mas0ng.com'; // Replace with the URL you want to redirect to
+  }
+
+  // Redirect after 5 seconds
+  setTimeout(redirect, 100);
+</script>
+</head>
+<body>
+
+<h1 class="redirect-title">mas0ng.com</h1>
+<p class="redirect-message">You are being redirected. Please wait...</p>
+<!-- Optional: include a manual link for users to click if they do not want to wait -->
+<p>If you are not redirected, <a href="https://tiktok.com/mas0ng" style="color: #553d67;">click here</a>.</p>
+
+</body>
+</html>
